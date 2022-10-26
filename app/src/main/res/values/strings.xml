@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">RdesMarket _V1.0</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="titulo_nacimiento">Solicitud de turno de nacimiento</string>
+    <string name="titulo_reconocimiento">Solicitud de turno de reconocimientos</string>
+    <string name="titulo_consultas">Realizar una consulta</string>
+
+    <!-- Strings de Formulario -->
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="dni">DNI:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="lugar_naci">Lugar de nacimiento del niño:</string>
+    <string name="vive_en">Barrio:</string>
+    <string name="oficina_correspondiente">Oficina correspondiente:</string>
+    <string name="depa">Departamento donde va a realizar el tramite</string>
+    <string name="seleccion_oficina">seleccione la oficina</string>
+    <string name="selecione_oficina">Seleccione oficina:</string>
+    <string name="oficina_cercama">Seleccione el registro más cercano a su domicilio:</string>
+    <string name="departamento_tramite">Departamento donde realizará el trámite:</string>
+    <string name="sol_co">Ingrese el código de operación:</string>
+    <string name="tituloCancelar">¿ESTA SEGURO QUE DESEA    CANCELAR SU TURNO?</string>
+    <string name="mensajeCancelar">Si acepta es posible que no pueda volver a obtener el mismo turno</string>
+    <string name="mensaje2Cancelar">Su turno ha sido cancelado exitosamente</string>
+
+
+
+    <string name="tipoTramite">Tipo de tramite:</string>
+    <string name="oficina">Oficina:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="hora">Hora:</string>
+    <string name="importante">IMPORTANTE</string>
+    <string name="fechaSeleccion">Seleccione Fecha</string>
+    <string name="horaSeleccion">Seleccione Hora</string>
+
+    <!-- Strings de Botones -->
+    <string name="buscar">Buscar</string>
+    <string name="modificar">Modificar Turno</string>
+    <string name="cancelar">Cancelar Turno</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="descargarPDF">Descargar PDF</string>
+    <string name="requisitos">Requisitos</string>
+    <string name="requisitosM">REQUISITOS</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="confirmar">Confirmar Turno</string>
+    <string name="aceptar">aceptar</string>
+    <string name="atras">atras</string>
+    <string name="salir">Salir</string>
+
+    <!-- Strings de emergentes -->
+    <string name="emergente1">Presentarse con tiempo en la oficina correspondiente. La espera es de
+    5 minutos, si no cumple con este requisito, deberá pedir un nuevo turno.</string>
+
+    <string name="emergente2">Recordá que deberás tener la constancia de turno, ya sea impresa o en tu celular, para poder ingresar
+    a la oficina del Registro Civil. El turno asignado solo servirá para ese día, horario y oficina especificados
+    en el comprobante y no se podrán atender personas sin el correspondiente turno.</string>
+
+    <string name="emergente3">- Certificado médico de nacimiento original.\n
+        - Padres con DNI.\n
+        - Padres casados, presentar acta o libreta de matrimonio civil.\n
+        - Madre sola, presentarse con DNI vigente.\n
+        - Carnet de vacunas del nacido.\n
+        - Si tiene más hijos, llevar sus actas de nacimiento.\n
+        - Presencia de ambos padres.\n
+        - NO deben concurrir al turno con el bebé.\n
+        - Traer lapicera azul o negra.
+    </string>
+
+    <string name="emergente4">Mayor de 18 años con trámite de actualización de 14 o 16 años:\n
+        - Llevar DNI. Si lo extraviaste o te lo robaron, llevá la denuncia.\n
+        - Para cambio de domicilio, llevar certificado de residencia expedido por la policía o boleta de servicios o impuestos
+        a nombre del solicitante.\n
+        \n
+        Mayor de 18 años sin trámite de actualización de 14 o 16 años:\n
+        - Llevar el ORIGINAL de la partida de nacimiento actualizada.\n
+        - DNI ORIGINAL de padre o madre \n
+        - Llevar DNI. Si lo extraviaste o te lo robaron, llevá la denuncia.\n
+
+    </string>
+
+    <string name="emergente5">- Partida de Nacimiento actualizada del menor para reconocimiento. La misma NO debe superar
+        los 10 días desde la fecha de emisión. Debe ser fotocopia del libro, NO partida express.\n
+        - Madre y padre deben presentarse con DNI vigente  y fotocopia de DNI.\n
+        - No deben concurrir al turno con el bebé.\n
+        - Traer lapicera azul o negra.
+    </string>
+</resources>

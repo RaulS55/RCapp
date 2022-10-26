@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fecha">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/calendario"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+             />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_horas"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/lb_fecha"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/lb_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calendario"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0sp"
+            android:text="@string/fechaSeleccion"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recycler_horas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@color/boton"
+            android:onClick="cambiarConfirmar"
+            android:text="@string/siguiente"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    </ScrollView>
+

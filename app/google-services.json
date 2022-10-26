@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807328802281",
+    "firebase_url": "https://rdesmarket-6c79e.firebaseio.com",
+    "project_id": "rdesmarket-6c79e",
+    "storage_bucket": "rdesmarket-6c79e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807328802281:android:6a1a8762d0dbaa459b9778",
+        "android_client_info": {
+          "package_name": "or.example.rdesmarket_v10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807328802281-1cp3bs9t0asu1lq96uhgu22gv1jficm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "or.example.rdesmarket_v10",
+            "certificate_hash": "31e5801a2ada6b29c355fd5095fb586fb8fb28f6"
+          }
+        },
+        {
+          "client_id": "807328802281-3d4osgdprhggbvggtdn4vlb7bbgnkp9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7QHlxG9iAdfFA2nYNK5BXSqzaFEXNz4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807328802281-3d4osgdprhggbvggtdn4vlb7bbgnkp9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

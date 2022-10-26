@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF7F7"
+        tools:context=".Nacimientos">
+
+    <TextView
+        android:id="@+id/lb_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#000000"
+        android:text="@string/nombre"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Nombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:text="@string/apellido"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_DNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Apellido"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:text="@string/dni"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_DNI"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:text="@string/direccion"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Direccion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/telefono"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Lugar_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Telefono"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:textColor="#000000"
+        android:text="@string/lugar_naci"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Vive_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_LugarNacimiento"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/vive_en"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_Oficina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_vive"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:text="@string/oficina_correspondiente"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_LugarNacimiento"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Lugar_nacimiento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Spinner
+        android:id="@+id/spinner_vive"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Vive_en"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/id_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb_Oficina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:text=""
+        android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_DNI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Apellido"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/lb_DNI"
+            android:layout_toRightOf="@+id/lb_DNI"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_Telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Direccion"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/lb_Telefono"
+            android:layout_toRightOf="@+id/lb_Telefono"
+            android:ems="10"
+            android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_resultado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/boton"
+        android:onClick="cambiarAFecha"
+        android:text="@string/siguiente"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_Nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/lb_Nombre"
+            android:layout_toRightOf="@+id/lb_Nombre"
+            android:ems="10"
+            android:digits="abcdefghijklmnopqrstuvwxyzñÑABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_Apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Nombre"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/lb_Apellido"
+            android:layout_toRightOf="@+id/lb_Apellido"
+            android:ems="10"
+            android:digits="abcdefghijklmnopqrstuvwxyzñÑABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_Direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_DNI"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/lb_Direccion"
+            android:layout_toRightOf="@+id/lb_Direccion"
+            android:ems="10"
+            android:digits="abcdefghijklmnopqrstuvwxyzñÑABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+    </ScrollView>
+
